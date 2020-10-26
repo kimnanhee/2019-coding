@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+h2{
+    font-size: xx-large;
+}
+
+h3{
+    font-size: x-large;
+}
+.button{
+font-family: "Nanum Gothic";
+width: 10%;
+line-height: 70px;
+ margin: 0px 5% 0 5%;
+border-radius: 20px;
+border: 1.5px solid black;
+display:inline-block;
+text-align: center;
+}
+
+.con{ 
+font-family: "Nanum Gothic";
+border: 1.5px solid #121212; 
+padding:10px;
+border-radius: 50px; 
+width: 80%;
+position: relative;
+left: 10%;
+}
+
+.main-title{
+height: 120px;
+color: white; 
+text-align: center; 
+line-height: 120px;
+background-image: url('main-title-earth.png'); 
+background-size: cover;
+}
