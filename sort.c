@@ -62,7 +62,6 @@ void quick(int arr[], int left, int right)
 	{
 		print(arr);
 		int p = partition(arr, left, right);
-		
 		quick(arr, left, p-1);
 		quick(arr, p+1, right);
 	}
@@ -112,7 +111,7 @@ int main()
 	insert(arr3); 
 	
 	printf("\nÄü\n");
-	quick(arr4, 0, SIZE);
+	quick(arr4, 0, 4);
 	
 	return 0;
 }
